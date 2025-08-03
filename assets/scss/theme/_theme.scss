@@ -1,0 +1,25 @@
+/*=============== THEME ===============*/
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+    --first-color-light:#f9e2b8;
+    --title-color:  #f3f2ed;
+    --text-color: #ccc9bd;
+    --body-color:  #231f17;
+    --container-color: #2b261e;
+    --scroll-bar-color: #4f4c41;
+    --scroll-thumb-color: #3d3a31;
+}
+
+/*========== Button Dark/Light ==========*/
+.change-theme{
+    position: absolute;
+    right: 1.5rem;
+    top: 2.2rem;
+    color: var(--title-color);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.dark-theme .footer{
+    background-color: var(--container-color);
+}

@@ -1,0 +1,56 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+    --header-height: 3rem;
+
+    /*========== Colors ==========*/
+    --first-color: #fadc4f;
+    --first-color-light: #fef5cc;
+    --first-color-lighten: #fdf0b8;
+    --first-color-alt: #f5cb1d;
+    --title-color: #2a2723;
+    --text-color: #5e584e;
+    --text-color-light: #a69f94;
+    --body-color: #ffffff;
+    --container-color: #ffffff;
+    --scroll-bar-color: #dcd7cf;
+    --scroll-thumb-color: #c2bcb2;
+        
+    /*========== Font and typography ==========*/
+    --body-font: "Poppins", sans-serif;;
+
+    --biggest-font-size: 2rem;
+    --h2-font-size: 1.25rem ;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813;
+    --smaller-font-size: 0.75rem;
+
+    // Responsive typography
+    @media screen and (min-width: 968px){
+        --biggest-font-size: 3rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.25rem ;
+        --normal-font-size: 1rem;
+        --small-font-size:0.875rem ;
+        --smaller-font-size: 0.813rem;
+    }
+
+    /*========== Font weight ==========*/
+    --font-semi-bold:600 ;
+    --font-bold: 700 ;
+
+    /*========== Margenes ==========*/
+    --mb-0-5: 0.5rem;
+    --mb-0-75:0.75rem ;
+    --mb-1: 1rem;
+    --mb-1-5:1.5rem ;
+    --mb-2: 2rem ;
+
+    /*========== z index ==========*/
+    --z-tooltip:10 ;
+    --z-fixed: 100;
+}
